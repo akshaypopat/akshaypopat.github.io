@@ -5,16 +5,7 @@ permalink: /
 author_profile: false
 ---
 
-I am a fourth-year mathematics student at Imperial College London, interested in algebraic topology, homotopy theory, and geometry.
+I am a fourth-year mathematics student at Imperial College London, interested in algebraic topology, particularly low-dimensional topology.
 
-## CV
+[curriculum vitae](/CV/index.html)
 
-[CV (PDF)](/CV/)
-
-## Unprofessional stuff
-
-[Unprofessional stuff](/unprofessional/)
-
-## Blog
-
-[Blog](/blog/)

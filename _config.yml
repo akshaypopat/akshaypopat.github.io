@@ -21,6 +21,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 github_username: akshaypopat
 minimal_mistakes_skin: default
 search: false
+atom_feed:
+  hide: true
 
 # Build settings
 markdown: kramdown
@@ -56,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Akshay Popat"
+  # name   : "Akshay Popat"
   # avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Website"
+  # bio    : "Website"
   # links:
   #   - label: "Website"
   #     icon: "fas fa-fw fa-link"
@@ -92,11 +94,13 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      show_date: true
+      show_taxonomy: false
   # _pages
   - scope:
       path: "_pages"

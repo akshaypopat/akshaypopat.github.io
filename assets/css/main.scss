@@ -1,0 +1,53 @@
+---
+---
+
+@import "minimal-mistakes";
+
+/* Disable visible titles */
+.page__title {
+  display: none;
+}
+
+/* Overall font size */
+html {
+  font-size: 13px;
+}
+
+/* Make the navigation hover underline thinner */
+.greedy-nav .visible-links a::before {
+  height: 2px;
+}
+
+/* Titles in the post archive */
+.archive__item-title {
+  font-size: 1.15em;
+}
+
+/* Titles on individual posts */
+.layout--single .page__title {
+  font-size: 1.6em;
+}
+
+/* Tags at the top of posts */
+.post-tags-top {
+  margin-bottom: 1.5em;
+  font-size: 0.85em;
+}
+
+.post-tags-top a {
+  display: inline-block;
+  margin-right: 0.6em;
+  padding: 0.2em 0.6em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Hide the date at the bottom of individual posts */
+.page__date {
+  display: none;
+}
+
+/* Hide taxonomy at the bottom */
+.page__taxonomy {
+  display: none;
+}

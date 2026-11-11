@@ -1,0 +1,7 @@
+{% if page.tags %}
+<div class="post-tags-top">
+  {% for tag in page.tags %}
+    <a href="{{ site.tag_archive.path }}#{{ tag | slugify }}">{{ tag }}</a>
+  {% endfor %}
+</div>
+{% endif %}
